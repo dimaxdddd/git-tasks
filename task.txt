@@ -1,1 +1,80 @@
-Test
+   35  exit
+   36  notepad++
+   37  exit
+   38  pwd
+   39  notepad++ .bash_profile
+   40  exit
+   41  npp
+   42  cat ~/.gitconfig
+   43  git config --global core.editor "notepad++.exe -multiInst -nosession"
+   44  git config --global --list
+   45  git config --global user.name "Dima Dubrova"
+   46  git config --global user.email dimaformyself@gmail.com
+   47  git config --global --list
+   48  git config --global -e
+   49  exit
+   50  p4merge
+   51  p4merge
+   52  p4merge
+   53  p4merge
+   54  git config --global merge.tool p4merge
+   55  git config --global mergetool.p4merge.path "C:/Program Files/Perforce/p4merge.exe"
+   56  git config --global mergetool.prompt false
+   57  git config --global diff.tool p4merge
+   58  git config --global difftool.p4merge.path "C:/Program Files/Perfore/p4merge.exe"
+   59  git config --global difftool.prompt false
+   60  git config --global --list
+   61  git config --global -e
+   62  git config --global user.email DDubrova@gomel.iba.by
+   63  git config --global core.autocrlf "true"
+   64  git config --global --list
+   65  git config --global user.name "Dmitry Dubrova"
+   66  git config --global --list
+   67  exit
+   68  git clone ssh://DDubrova@gml-jbpm.gomel.iba.by:29418/DDubrova-git && scp -p -P 29418 DDubrova@gml-jbpm.gomel.iba.by:hooks/commit-msg DDubrova-git/.git/hooks/
+   69  exit
+   70  git clone ssh://DDubrova@gml-jbpm.gomel.iba.by:29418/DDubrova-git && scp -p -P 29418 DDubrova@gml-jbpm.gomel.iba.by:hooks/commit-msg DDubrova-git/.git/hooks/
+   71  git clone ssh://DDubrova@gml-jbpm.gomel.iba.by:29418/DDubrova-git && scp -p -P 29418 DDubrova@gml-jbpm.gomel.iba.by:hooks/commit-msg DDubrova-git/.git/hooks/
+   72  git config --global --list
+   73  ssh-keygen
+   74  ssh-keygen
+   75  exit
+   76  git clone ssh://DDubrova@gml-jbpm.gomel.iba.by:29418/DDubrova-git && scp -p -P 29418 DDubrova@gml-jbpm.gomel.iba.by:hooks/commit-msg DDubrova-git/.git/hooks/
+   77  exit
+   78  git clone https://gml-jbpm.gomel.iba.by/gerrit/ddubrova-git && (cd ddubrova-git && curl -Lo `git rev-parse --git-dir`/hooks/commit-msg https://gml-jbpm.gomel.iba.by/gerrit/tools/hooks/commit-msg; chmod +x `git rev-parse --git-dir`/hooks/commit-msg)
+   79  pwd
+   80  git clone ssh://ddubrova@gml-jbpm.gomel.iba.by:29418/ddubrova-git && scp -p -P 29418 ddubrova@gml-jbpm.gomel.iba.by:hooks/commit-msg ddubrova-git/.git/hooks/
+   81  pwd
+   82   HEAD:refs/for/refs/
+   83   HEAD:refs/heads/
+   84   git push origin HEAD:refs/for/master
+   85  mkdir projects
+   86  cd projects/
+   87  pwd
+   88  git clone https://github.com/dimaxdddd/git-tasks.git
+   89  ls
+   90  cd git-tasks
+   91  ls
+   92  git status
+   93  echo "Test" >> task.txt
+   94  ls
+   95  ls
+   96  cat task.txt
+   97  git status
+   98  git add start.txt
+   99  git add task.txt
+  100  ls
+  101  status
+  102  git status
+  103  git commit -m "Adding task text file"
+  104  git status
+  105  git push origin master
+  106  git push origin master
+  107  history" >> task.txt
+  111  notepad++ task.txt
+  112  history
+  113  history
+  114  clear
+  115  pwd
+  116  notepad++ task.txt
+  117  history
